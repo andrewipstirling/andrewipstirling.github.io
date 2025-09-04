@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - andrewipstirling
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  # - andrewipstirling/gvi_ws
+  - andrewipstirling/pymocap
+  - andrewipstirling/kalman_filter_decar
