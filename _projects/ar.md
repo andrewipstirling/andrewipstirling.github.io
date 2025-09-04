@@ -17,8 +17,7 @@ for the Kinova Kortex arm, achieving commanded positions within set time constra
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
     <video width="560" height="315" controls>
-      <source src="{{ '/assets/video/dynamics_kortex.mp4' | relative_url }}" type="video/mp4">
-      Your browser does not support the video tag.
+      <source src="/assets/video/dynamics_kortex.mp4" type="video/mp4">
     </video>
   </div>
 </div>
@@ -29,8 +28,7 @@ a table of boxes or performing pick-and-place operations.
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
     <video width="560" height="315" controls>
-      <source src="{{ '/assets/video/cleaning_kortex.mp4' | relative_url }}" type="video/mp4">
-      Your browser does not support the video tag.
+      <source src="/assets/video/cleaning_kortex.mp4" type="video/mp4">
     </video>
   </div>
 </div>

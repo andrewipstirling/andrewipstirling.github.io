@@ -7,13 +7,14 @@ nav_order: 5
 # redirect_to: /assets/pdf/a_stirling_cv.pdf
 ---
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url={{ '/assets/pdf/a_stirling_cv.pdf' | relative_url }}">
-    <link rel="canonical" href="{{ '/assets/files/your_cv.pdf' | relative_url }}">
+    <meta http-equiv="refresh" content="0; url=/assets/pdf/a_stirling_cv.pdf">
+    <link rel="canonical" href="/assets/files/Andrew_Stirling_CV.pdf">
   </head>
   <body>
-    <p>If you are not redirected automatically, <a href="{{ '/assets/files/your_cv.pdf' | relative_url }}">click here to view the CV</a>.</p>
+    <p>If you are not redirected automatically, <a href="/assets/files/a_stirling_cv.pdf">click here to view the CV</a>.</p>
   </body>
 </html>
 <!-- ---

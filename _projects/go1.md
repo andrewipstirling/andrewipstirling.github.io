@@ -55,6 +55,5 @@ Finally, with both the PD-ILC, we were able to obtain good performance with velo
 And a video of the initial performance:
 
 <video width="560" height="315" controls>
-  <source src="{{ '/assets/video/go1_walk.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
+  <source src="/assets/video/dynamics_kortex.mp4" type="video/mp4">
 </video>
