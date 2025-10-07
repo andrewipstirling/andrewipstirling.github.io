@@ -19,3 +19,8 @@
 "RA-L":
   url: https://www.ieee-ras.org/publications/ra-l
   color: "#00bfa5"   # teal
+
+"Preprint":
+  url: https://www.researchsquare.com/
+  color: "#00369f"   # 
+ 
