@@ -13,7 +13,7 @@ profile:
   #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 posts: false
 social: true # includes social icons at the bottom of the page
@@ -22,9 +22,9 @@ social: true # includes social icons at the bottom of the page
 Hi! My name is Andrew Stirling. I am a Master's (Thesis) student in Montréal at McGill University studying Robotics, 
 with the <a href="https://www.decar.ca/">DECAR</a> Lab, which conducts fundamental and applied research on state estimation (navigation),  guidance, and control.
     
-I research state estimation for robotic systems in GNSS (GPS)-denied environments using UWB technology along with cameras and IMUs among other sensors.
+I research state estimation for robotic systems in GNSS (GPS)-denied environments fusing ultra-wideband (UWB) technology with cameras, IMUs, and other sensors to tackle SLAM and localization challenges.
 
-Born and raised in Calgary, at the foot of the Canadian Rockies, I am passionate about applying Robotics to human-centered and environmental challenges. Specifically, I am interested in leveraging my background in estimation/perception to improve environmental modeling and developing field robotics for ocean, agricultural, and healthcare applications.
+Born and raised in Calgary, at the foot of the Canadian Rockies, I am passionate about applying Robotics to human-centered and environmental challenges. Specifically, I am interested in leveraging my background in estimation and perception to improve field robotics for ocean, agricultural, and healthcare applications.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
