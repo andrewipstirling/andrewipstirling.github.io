@@ -8,17 +8,16 @@ category: research
 related_publications: true
 ---
 
-
 ## Low-Level Control for the Unitree Go1 Robot
 
-In this project with the CoRoLab at the Berlin University of Applied Science and Technology, I helped investigate 
-a control strategy that combined Proportional-Derivative (PD) control with Iterative Learning Control (ILC) to 
+In this project with the CoRoLab at the Berlin University of Applied Science and Technology, I helped investigate
+a control strategy that combined Proportional-Derivative (PD) control with Iterative Learning Control (ILC) to
 enhance legged robot velocity control. This PD-ILC controller approach was presented in {% cite ECC_pub %}.
 
 ### Control Strategy Overview
 
-The first step was deriving a first principles, kinematic model of the Unitree Go1. 
-Using the inverse kinematics equations derived from this allowed us to control individual foot positions in reference to the 
+The first step was deriving a first principles, kinematic model of the Unitree Go1.
+Using the inverse kinematics equations derived from this allowed us to control individual foot positions in reference to the
 shoulder (hip) joints, forming the basis of the control strategy.
 
 <div class="row">
@@ -33,9 +32,9 @@ $$
 B(t) = \sum_{i=0}^{n} \binom{n}{i} (1-t)^{n-i} t^i P_i
 $$
 
-Using PD Control, each foot is able to follow these step trajectories, resulting in a trotting gait. However, PD turned out 
-to not be satisfactory for performance, with the Go1 being unable to accurately follow desired trotting speeds. 
-To improve upon this, we integrated ILC, which traditionally was only used for fixed robots such as robotic arms. 
+Using PD Control, each foot is able to follow these step trajectories, resulting in a trotting gait. However, PD turned out
+to not be satisfactory for performance, with the Go1 being unable to accurately follow desired trotting speeds.
+To improve upon this, we integrated ILC, which traditionally was only used for fixed robots such as robotic arms.
 The architecture for the PD-ILC method can be found below.
 
 <div class="row">

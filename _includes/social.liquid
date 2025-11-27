@@ -68,14 +68,16 @@
       <a
         href="http://lattes.cnpq.br/{{ social[1] }}"
         target="_blank"
-        title="Lattes">
+        title="Lattes"
+      >
         <i class="ai ai-lattes"></i>
       </a>
     {% when 'leetcode_id' %}
       <a
         href="https://leetcode.com/u/{{ social[1] }}/"
         target="_blank"
-        title="LeetCode">
+        title="LeetCode"
+      >
         <i class="si si-leetcode"></i>
       </a>
     {% when 'linkedin_username' %}
@@ -86,7 +88,8 @@
       <a
         rel="me"
         href="https://{{ social[1] }}"
-        title="Mastodon">
+        title="Mastodon"
+      >
         <i class="fa-brands fa-mastodon"></i>
       </a>
     {% when 'medium_username' %}
@@ -161,12 +164,14 @@
         <img
           src="{{ social[1] | prepend: 'assets/img/' | relative_url }}"
           alt="WeChat QR"
-          id="WeChatQR">
+          id="WeChatQR"
+        >
       </div>
       <script
         defer
         src="{{ '/assets/js/wechat.js' | relative_url | bust_file_cache }}"
-        type="text/javascript"></script>
+        type="text/javascript"
+      ></script>
     {% when 'whatsapp_number' %}
       <a href="https://wa.me/{{ social[1] }}" title="whatsapp">
         <i class="fa-brands fa-whatsapp"></i>
@@ -203,7 +208,10 @@
             <image xlink:href="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}" />
           </svg>
         {% else %}
-          <img src="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}" alt="{{ social[1].title }}">
+          <img
+            src="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}"
+            alt="{{ social[1].title }}"
+          >
         {% endif %}
       </a>
   {% endcase %}

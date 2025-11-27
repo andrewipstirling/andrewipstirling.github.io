@@ -5,7 +5,8 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">
       <i class="fa-solid fa-hashtag fa-sm"></i>
-      {{ page.title }}</h1>
+      {{ page.title }}
+    </h1>
     <p class="post-description">an archive of posts with this tag</p>
   </header>
 
@@ -22,7 +23,10 @@ layout: default
                 <a
                   class="post-link"
                   href="{{ post.redirect }}"
-                  target="_blank">{{ post.title }}</a>
+                  target="_blank"
+                >
+                  {{- post.title -}}
+                </a>
               {% else %}
                 <a class="post-link" href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
               {% endif %}

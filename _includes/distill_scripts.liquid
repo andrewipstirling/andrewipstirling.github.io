@@ -2,14 +2,16 @@
 <script
   src="{{ site.third_party_libraries.jquery.url.js }}"
   integrity="{{ site.third_party_libraries.jquery.integrity.js }}"
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous"
+></script>
 
 <!-- Bootsrap & MDB scripts -->
 <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
 <script
   src="{{ site.third_party_libraries.mdb.url.js }}"
   integrity="{{ site.third_party_libraries.mdb.integrity.js }}"
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous"
+></script>
 
 {% if page.mermaid and page.mermaid.enabled %}
   <!-- Mermaid and D3 -->
@@ -17,18 +19,21 @@
     defer
     src="{{ site.third_party_libraries.mermaid.url.js }}"
     integrity="{{ site.third_party_libraries.mermaid.integrity.js }}"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"
+  ></script>
   {% if page.mermaid.zoomable %}
     <script
       defer
       src="{{ site.third_party_libraries.d3.url.js }}"
       integrity="{{ site.third_party_libraries.d3.integrity.js }}"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
   {% endif %}
   <script
     defer
     src="{{ '/assets/js/mermaid-setup.js' | relative_url | bust_file_cache }}"
-    type="text/javascript"></script>
+    type="text/javascript"
+  ></script>
 {% endif %}
 
 {% if page.code_diff %}
@@ -37,11 +42,13 @@
   <script
     src="{{ site.third_party_libraries.diff2html.url.js }}"
     integrity="{{ site.third_party_libraries.diff2html.integrity.js }}"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"
+  ></script>
   <script
     defer
     src="{{ '/assets/js/diff2html-setup.js' | relative_url | bust_file_cache }}"
-    type="text/javascript"></script>
+    type="text/javascript"
+  ></script>
 {% endif %}
 
 {% if page.map %}
@@ -49,11 +56,13 @@
   <script
     src="{{ site.third_party_libraries.leaflet.url.js }}"
     integrity="{{ site.third_party_libraries.leaflet.integrity.js }}"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"
+  ></script>
   <script
     defer
     src="{{ '/assets/js/leaflet-setup.js' | relative_url | bust_file_cache }}"
-    type="text/javascript"></script>
+    type="text/javascript"
+  ></script>
 {% endif %}
 
 {% if page.chart and page.chart.chartjs %}
@@ -62,11 +71,13 @@
     defer
     src="{{ site.third_party_libraries.chartjs.url.js }}"
     integrity="{{ site.third_party_libraries.chartjs.integrity.js }}"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"
+  ></script>
   <script
     defer
     src="{{ '/assets/js/chartjs-setup.js' | relative_url | bust_file_cache }}"
-    type="text/javascript"></script>
+    type="text/javascript"
+  ></script>
 {% endif %}
 
 {% if page.chart and page.chart.echarts %}
@@ -74,17 +85,20 @@
   <script
     src="{{ site.third_party_libraries.echarts.url.js.library }}"
     integrity="{{ site.third_party_libraries.echarts.integrity.js.library }}"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"
+  ></script>
   {% if site.enable_darkmode %}
     <script
       src="{{ site.third_party_libraries.echarts.url.js.dark_theme }}"
       integrity="{{ site.third_party_libraries.echarts.integrity.js.dark_theme }}"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
   {% endif %}
   <script
     defer
     src="{{ '/assets/js/echarts-setup.js' | relative_url | bust_file_cache }}"
-    type="text/javascript"></script>
+    type="text/javascript"
+  ></script>
 {% endif %}
 
 {% if page.chart and page.chart.vega_lite %}
@@ -93,21 +107,25 @@
     defer
     src="{{ site.third_party_libraries.vega.url.js }}"
     integrity="{{ site.third_party_libraries.vega.integrity.js }}"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"
+  ></script>
   <script
     defer
     src="{{ site.third_party_libraries.vega-lite.url.js }}"
     integrity="{{ site.third_party_libraries.vega-lite.integrity.js }}"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"
+  ></script>
   <script
     defer
     src="{{ site.third_party_libraries.vega-embed.url.js }}"
     integrity="{{ site.third_party_libraries.vega-embed.integrity.js }}"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"
+  ></script>
   <script
     defer
     src="{{ '/assets/js/vega-setup.js' | relative_url | bust_file_cache }}"
-    type="text/javascript"></script>
+    type="text/javascript"
+  ></script>
 {% endif %}
 
 {% if page.tikzjax %}
@@ -116,7 +134,8 @@
     defer
     src="https://tikzjax.com/v1/tikzjax.js"
     integrity="sha256-+1qyucCXRZJrCg3lm3KxRt/7WXaYhBid4/1XJRHGB1E="
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"
+  ></script>
 {% endif %}
 
 {% if page.typograms %}
@@ -135,7 +154,8 @@
     defer
     src="{{ site.third_party_libraries.medium_zoom.url.js }}"
     integrity="{{ site.third_party_libraries.medium_zoom.integrity.js }}"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"
+  ></script>
   <script defer src="{{ '/assets/js/zoom.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 
@@ -151,7 +171,8 @@
     defer
     src="{{ site.third_party_libraries.bootstrap-table.url.js }}"
     integrity="{{ site.third_party_libraries.bootstrap-table.integrity.js }}"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"
+  ></script>
 {% endif %}
 
 <!-- Load Common JS -->
@@ -160,7 +181,8 @@
 <script
   defer
   src="{{ '/assets/js/copy_code.js' | relative_url | bust_file_cache }}"
-  type="text/javascript"></script>
+  type="text/javascript"
+></script>
 
 <!-- Jupyter Open External Links New Tab -->
 <script defer src="{{ '/assets/js/jupyter_new_tab.js' | relative_url | bust_file_cache }}"></script>
@@ -175,12 +197,14 @@
     id="MathJax-script"
     src="{{ site.third_party_libraries.mathjax.url.js }}"
     integrity="{{ site.third_party_libraries.mathjax.integrity.js }}"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"
+  ></script>
   <script src="{{ '/assets/js/mathjax-setup.js' | relative_url | bust_file_cache }}"></script>
   <script
     defer
     src="{{ site.third_party_libraries.polyfill.url.js }}"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"
+  ></script>
   <!-- Removed Pseudocode -->
 {% endif %}
 
@@ -201,14 +225,16 @@
     defer
     src="https://api.pirsch.io/pa.js"
     id="pianjs"
-    data-code="{{ site.pirsch_analytics }}"></script>
+    data-code="{{ site.pirsch_analytics }}"
+  ></script>
 {% endif %}
 {% if site.enable_openpanel_analytics %}
   <script defer src="{{ '/assets/js/open-panel-analytics-setup.js' | relative_url | bust_file_cache }}"></script>
   <script
     async
     defer
-    src="https://openpanel.dev/op1.js"></script>
+    src="https://openpanel.dev/op1.js"
+  ></script>
 {% endif %}
 
 {% if site.enable_progressbar %}
@@ -216,7 +242,8 @@
   <script
     defer
     src="{{ '/assets/js/progress-bar.js' | relative_url | bust_file_cache }}"
-    type="text/javascript"></script>
+    type="text/javascript"
+  ></script>
 {% endif %}
 
 {% if page.images %}
@@ -226,44 +253,51 @@
       defer
       src="{{ site.third_party_libraries.img-comparison-slider.url.js }}"
       integrity="{{ site.third_party_libraries.img-comparison-slider.integrity.js }}"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
   {% endif %}
   {% if page.images.lightbox2 %}
     <script
       defer
       src="{{ site.third_party_libraries.lightbox2.url.js }}"
       integrity="{{ site.third_party_libraries.lightbox2.integrity.js }}"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
   {% endif %}
   {% if page.images.photoswipe %}
     <script
       defer
       src="{{ '/assets/js/photoswipe-setup.js' | relative_url | bust_file_cache }}"
-      type="module"></script>
+      type="module"
+    ></script>
   {% endif %}
   {% if page.images.slider %}
     <script
       defer
       src="{{ site.third_party_libraries.swiper.url.js }}"
       integrity="{{ site.third_party_libraries.swiper.integrity.js }}"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
   {% endif %}
   {% if page.images.spotlight %}
     <script
       defer
       src="{{ site.third_party_libraries.spotlight.url.js }}"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
   {% endif %}
   {% if page.images.venobox %}
     <script
       defer
       src="{{ site.third_party_libraries.venobox.url.js }}"
       integrity="{{ site.third_party_libraries.venobox.integrity.js }}"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
     <script
       defer
       src="{{ '/assets/js/venobox-setup.js' | relative_url | bust_file_cache }}"
-      type="text/javascript"></script>
+      type="text/javascript"
+    ></script>
   {% endif %}
 {% endif %}
 
@@ -286,7 +320,8 @@
   <ninja-keys
     hideBreadcrumbs
     noAutoLoadMdIcons
-    placeholder="Type to start searching"></ninja-keys>
+    placeholder="Type to start searching"
+  ></ninja-keys>
   <script src="{{ '/assets/js/search-setup.js' | relative_url | bust_file_cache }}"></script>
   <script src="{{ '/assets/js/search-data.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/shortcut-key.js' | relative_url | bust_file_cache }}"></script>

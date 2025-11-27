@@ -10,7 +10,7 @@
               </td>
             {% else %}
               <td class="list-group-category-icon"></td>
-          {% endif %}
+            {% endif %}
             <!-- Calculate colspan number for category title -->
             {% assign i = 1 %}
             {% for item in content.items %}
@@ -20,7 +20,8 @@
           </tr>
           {% for item in content.keywords %}
             <tr>
-              <td></td>-
+              <td></td>
+              -
               <td class="list-group-name">
                 <b>{{ item }}</b>
               </td>

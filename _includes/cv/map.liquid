@@ -17,12 +17,17 @@
                     <a
                       href="{{ item.link }}"
                       target="_blank"
-                      class="btncv z-depth-0">{{ item.name }}</a>
+                      class="btncv z-depth-0"
+                    >
+                      {{- item.name -}}
+                    </a>
                   {% else %}
                     <a
                       href="{{ item.link }}"
                       target="_blank"
-                      class="btncv z-depth-0">doc</a>
+                      class="btncv z-depth-0"
+                      >doc</a
+                    >
                   {% endif %}
                 </div>
               {% endif %}

@@ -6,6 +6,7 @@ nav: true
 nav_order: 5
 # redirect_to: /assets/pdf/a_stirling_cv.pdf
 ---
+
 <!DOCTYPE html>
 <!DOCTYPE html>
 <html>

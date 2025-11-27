@@ -9,18 +9,18 @@
   color: "#009f36"
 
 "ECC":
-  url: https://ecc24.euca-ecc.org/index.html   # replace with the actual conference URL
-  color: "#1e90ff"  # DodgerBlue (friendly, professional)
+  url: https://ecc24.euca-ecc.org/index.html # replace with the actual conference URL
+  color: "#1e90ff" # DodgerBlue (friendly, professional)
 
 "Nature":
   url: https://www.nature.com/
-  color: "#6a0dad"   # purple
+  color: "#6a0dad" # purple
 
 "RA-L":
   url: https://www.ieee-ras.org/publications/ra-l
-  color: "#00bfa5"   # teal
+  color: "#00bfa5" # teal
 
 "Preprint":
   url: https://www.researchsquare.com/
-  color: "#00369f"   # 
- 
+  color: "#00369f" #
+
