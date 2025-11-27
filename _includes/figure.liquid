@@ -9,11 +9,11 @@
 >
   <picture>
     <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    {% if site.imagemagick.enabled %}
+
+    {% assign width = include.width | default: 0 %}
+
+    {% if site.imagemagick.enabled and not (ext == 'gif' and width <= 100) %}
+      <!-- Use WebP only for non-small GIFs and other images -->
       <source
         class="responsive-img-srcset"
         {% if ext == 'gif' or ext == 'jpeg' or ext == 'jpg' or ext == 'png' or ext == 'tiff' %}
@@ -29,6 +29,7 @@
         {% endif %}
       >
     {% endif %}
+
     <img
       src="{% if include.url %}{{ include.url }}{% elsif include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
       {% if include.class %}
@@ -82,3 +83,4 @@
     <figcaption class="caption">{{ include.caption }}</figcaption>
   {% endif %}
 </figure>
+
