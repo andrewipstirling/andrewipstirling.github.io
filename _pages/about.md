@@ -24,7 +24,7 @@ with the <a href="https://www.decar.ca/">DECAR</a> Lab, which conducts fundament
 
 I research state estimation for robotic systems in GNSS (GPS)-denied environments fusing ultra-wideband (UWB) technology with cameras, IMUs, and other sensors to tackle SLAM and localization challenges.
 
-Born and raised in Calgary, at the foot of the Canadian Rockies, I am passionate about applying Robotics to human-centered and environmental challenges. Specifically, I am interested in leveraging my background in estimation and perception to improve field robotics for ocean, agricultural, and healthcare applications.
+Raised in Calgary, at the foot of the Canadian Rockies, I am passionate about applying Robotics to human-centered and environmental challenges. Specifically, I am interested in leveraging my background in estimation and perception to improve field robotics for ocean, agricultural, and healthcare applications.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 

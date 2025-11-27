@@ -2,7 +2,7 @@
 layout: page
 title: Controller Design
 description: Low-Level Controller for the Unitree Go1 Robot
-img: assets/img/pdilc.jpg
+img: assets/img/pdilc.JPG
 importance: 1
 category: research
 related_publications: true
