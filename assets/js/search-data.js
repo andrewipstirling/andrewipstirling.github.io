@@ -66,7 +66,13 @@ ninja.data = [{
           window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
         
       },
-    },{id: "projects-applied-robotics",
+    },{id: "news-i-started-my-m-sc-at-mcgill-university-with-the-decar-lab",
+          title: 'I started my M.Sc at McGill University with the DECAR lab!',
+          description: "",
+          section: "News",},{id: "news-our-paper-gaussian-variational-inference-with-non-gaussian-factors-for-state-estimation-a-uwb-localization-case-study-was-accepted-for-publication-in-the-ieee-robotics-and-automation-letters-ra-l-and-will-be-presented-at-icra-2026-in-vienna",
+          title: 'Our paper “Gaussian Variational Inference with Non-Gaussian Factors for State Estimation: A UWB...',
+          description: "",
+          section: "News",},{id: "projects-applied-robotics",
           title: 'Applied Robotics',
           description: "A series of projects implementing kinematic and dynamic controllers for various robots in my graduate course.",
           section: "Projects",handler: () => {
@@ -76,6 +82,11 @@ ninja.data = [{
           description: "Low-Level Controller for the Unitree Go1 Robot",
           section: "Projects",handler: () => {
               window.location.href = "/projects/go1/";
+            },},{id: "projects-multi-camera-setup-for-image-guided-neurosurgery",
+          title: 'Multi-Camera Setup for Image Guided Neurosurgery',
+          description: "Development of a low-cost multi-camera optical tracking system for neuronavigated surgery.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/opsis/";
             },},{
         id: 'social-email',
         title: 'email',
