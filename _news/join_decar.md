@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I started my M.Sc at McGill university with the DECAR lab!
+I started my M.Sc at McGill University with the DECAR lab!

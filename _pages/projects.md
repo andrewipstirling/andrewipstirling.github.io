@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of research and engineering projects showcasing my work in robotics, and applied technologies.
 nav: true
 nav_order: 3
-display_categories: [research, fun]
+display_categories: [research, schoolwork, fun]
 horizontal: false
 ---
 

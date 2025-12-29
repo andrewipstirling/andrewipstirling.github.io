@@ -4,7 +4,7 @@ title: Applied Robotics
 description: A series of projects implementing kinematic and dynamic controllers for various robots in my graduate course.
 img: assets/img/kinova_arm.png
 importance: 2
-category: research
+category: schoolwork
 related_publications: false
 ---
 
