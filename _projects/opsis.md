@@ -2,7 +2,7 @@
 layout: page
 title: Multi-Camera Setup for Image Guided Neurosurgery
 description: Development of a low-cost multi-camera optical tracking system for neuronavigated surgery.
-img: assets/img/publication_preview/opsis.gif
+img: assets/img/opsis/opsis_overview.png
 importance: 2
 category: research
 related_publications: true

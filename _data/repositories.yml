@@ -1,9 +1,8 @@
 github_users:
-  - andrewipstirling
 
-repo_description_lines_max: 2
+repo_description_lines_max: 5
 
 github_repos:
-  # - andrewipstirling/gvi_ws
+  - decargroup/gvi_ws
   - andrewipstirling/pymocap
-  - andrewipstirling/kalman_filter_decar
+  - andrewipstirling/uvio
