@@ -203,7 +203,7 @@ exclude:
   - readme_preview/
   - vendor
   - _news/announcement_*.md
-  - _posts/
+  - _posts/*.md
   - _pages/blog.md
   - _pages/teaching.md
 keep_files:
